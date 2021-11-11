@@ -607,6 +607,10 @@ prebuilt_etc {
     arm64: {
       src: "seccomp_policy/prefetcherd.arm64.policy"
     },
+    // FIXME: need to create real file for riscv64, now just use arm64 to pass build
+    riscv64: {
+      src: "seccomp_policy/prefetcherd.riscv64.policy"
+    },
     x86: {
       src: "seccomp_policy/prefetcherd.x86.policy"
     },
